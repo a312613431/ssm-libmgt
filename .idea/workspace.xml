@@ -1,0 +1,1164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LibraryManagement:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9e2c605e-41dd-48da-9445-2bff444d52a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/InformationMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wonders/libmgt/service/impl/InformationServiceimplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/BookCommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/BookCommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/BookTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/BookTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/InformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/InformationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/LabelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/LabelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/LibraryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/LibraryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/ReaderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/ReaderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/TypeOneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/TypeOneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/TypeTwoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/TypeTwoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/vo/Massage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/massage/Massage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/vo/ReaderCondition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/massage/ReaderCondition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/vo/ReaderModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/massage/ReaderModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/interceptors/LoginInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/interceptors/LoginInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/AdminMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/BookCommentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/BookCommentMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/BookLabelMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/BookLabelMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/BookTypeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/BookTypeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/InformationMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/InformationMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/LibraryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/LibraryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/ReaderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/ReaderMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/TypeOneMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/TypeOneMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/TypeTwoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/TypeTwoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/AdminExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/AdminExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/BookBorrowModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/BookBorrowModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/BookComment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/BookComment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/BookLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/BookLabel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/BookRecordModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/BookRecordModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/BookType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/BookType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/InforBookType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/InforBookType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/InformationDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/InformationDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/ReaderExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/ReaderExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/TypeOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/TypeOne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/TypeTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/TypeTwo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/IBookCommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/IBookCommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/IBookLabelService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/IBookLabelService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/IBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/IBookTypeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/IBookTypeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/IInformationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/IInformationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/ILibraryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/ILibraryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/ITypeOneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/ITypeOneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/ITypeTwoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/ITypeTwoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/ReaderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/ReaderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/impl/BookCommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/BookCommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/impl/BookLabelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/BookLabelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/impl/BookTypeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/BookTypeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/impl/InformationServiceimpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/InformationServiceimpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/impl/LibraryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/LibraryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/impl/ReaderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/ReaderServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/impl/TypeOneServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/TypeOneServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/impl/TypeTwoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/TypeTwoServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/swagger/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/swagger/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/util/LogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/util/LogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/util/MailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/util/MailUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/util/MassageUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/util/MassageUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wonders/shixi/util/RestMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/util/RestMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/shixi/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/shixi/mapper/BookCommentMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/BookCommentMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/shixi/mapper/BookLabelMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/BookLabelMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/shixi/mapper/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/shixi/mapper/BookTypeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/BookTypeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/shixi/mapper/LibraryMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/LibraryMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/shixi/mapper/ReaderMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/ReaderMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/shixi/mapper/TypeOneMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/TypeOneMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/wonders/shixi/mapper/TypeTwoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/TypeTwoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config/spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config/spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/management/booktypeinformation.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/management/booktypeinformation.jsp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/LibraryManagement$IInformationServiceTest_bookList.ic" NAME="IInformationServiceTest.bookList Coverage Results" MODIFIED="1546913656773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.wonders.libmgt.service.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-791861158">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="5" />
+          <entry key="java" value="123" />
+          <entry key="js" value="31" />
+          <entry key="jsp" value="109" />
+          <entry key="less" value="2" />
+          <entry key="tld" value="1" />
+          <entry key="xml" value="43" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="JAVA" value="123" />
+          <entry key="JSP" value="109" />
+          <entry key="JavaScript" value="31" />
+          <entry key="Less" value="2" />
+          <entry key="XML" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="2414" />
+          <entry key="jsp" value="2268" />
+          <entry key="txt" value="117" />
+          <entry key="xml" value="540" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="1" />
+          <entry key="JAVA" value="2414" />
+          <entry key="JSP" value="2267" />
+          <entry key="PLAIN_TEXT" value="117" />
+          <entry key="SQL" value="6" />
+          <entry key="XML" value="534" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/InformationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="JUnit4 Test Class" />
+        <option value="Tag Library Descriptor" />
+        <option value=" xmltemplate" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\&lt;dependency\&gt;\n\n      \ \ \ \ \ \  \ \ \ \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n\n      \ \ \ \ \ \  \ \ \  \&lt;artifactId\&gt;spring\-test\&lt;\/artifactId\&gt;\n\n      \ \ \ \ \ \  \ \ \  \&lt;version\&gt;\$\{spring\.version\}\&lt;\/version\&gt;\n\n      \ \ \ \ \ \  \&lt;\/dependency\&gt;\n\n    \ \ \ \ \ \  \&lt;dependency\&gt;\n\n    \ \ \ \ \ \  \ \ \  \&lt;groupId\&gt;org\.springframework\&lt;\/groupId\&gt;\n\n    \ \ \ \ \ \  \ \ \  \&lt;artifactId\&gt;spring\-tx\&lt;\/artifactId\&gt;\n\n    \ \ \ \ \ \  \ \ \  \&lt;version\&gt;\$\{spring\.version\}\&lt;\/version\&gt;\n\n    \ \ \ \ \ \  \&lt;\/dependency\&gt;</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/BookPeriodicals.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/InformationDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/shixi/util/MailUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/bookchart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/bookinformation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/management/updatebook.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/shixi/pojo/InforBookType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/IInformationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/shixi/service/impl/InformationServiceimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/admin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/management/addbooktype.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/management/bookchart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/management/bookinformation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/management/booktypeinformation.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/shixi/controller/InformationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/shixi/mapper/InformationMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/InformationServiceimpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/config/spring-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wonders/libmgt/service/IInformationServiceTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/TypeTwo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/Book.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/InformationMapper.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wonders/libmgt/service/impl/InformationServiceimplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/InformationMapper.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="970" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wonders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wonders" type="462c0819:PsiDirectoryNode" />
+              <item name="libmgt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wonders" type="462c0819:PsiDirectoryNode" />
+              <item name="libmgt" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wonders" type="462c0819:PsiDirectoryNode" />
+              <item name="libmgt" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wonders" type="462c0819:PsiDirectoryNode" />
+              <item name="libmgt" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wonders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wonders" type="462c0819:PsiDirectoryNode" />
+              <item name="libmgt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="wonders" type="462c0819:PsiDirectoryNode" />
+              <item name="libmgt" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LibraryManagement" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LibraryManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546939964492" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.33563218" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.wonders.libmgt.service.impl" />
+      <recent name="com.wonders.libmgt.service" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\LibraryManagement\src\main\webapp\management" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\LibraryManagement\src\main\webapp" />
+      <recent name="D:\workspace\LibraryManagement\src\main\webapp\js" />
+      <recent name="D:\workspace\LibraryManagement\src\main\java\com\wonders\shixi\service\impl" />
+      <recent name="D:\workspace\LibraryManagement\src\main\java\com\wonders\shixi\service" />
+      <recent name="D:\workspace\LibraryManagement\src\main\java\com\wonders\shixi\mapper" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.InformationServiceimplTest.findallbooktype">
+    <configuration name="InformationServiceimplTest.findallbooktype" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wonders.libmgt.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wonders.libmgt.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.wonders.libmgt.service.impl.InformationServiceimplTest" />
+      <option name="METHOD_NAME" value="findallbooktype" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InformationServiceimplTest.findclickbook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LibraryManagement" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wonders.libmgt.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wonders.libmgt.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.wonders.libmgt.service.impl.InformationServiceimplTest" />
+      <option name="METHOD_NAME" value="findclickbook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.53" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="START_JAVASCRIPT_DEBUGGER" value="true" />
+      <deployment>
+        <artifact name="LibraryManagement:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_LibraryManagement_4" />
+        <option name="DEPLOY_TOMCAT_APPS" value="true" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51177" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="LibraryManagement:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="JUnit.InformationServiceimplTest.findallbooktype" />
+      <item itemvalue="JUnit.InformationServiceimplTest.findclickbook" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.InformationServiceimplTest.findallbooktype" />
+        <item itemvalue="JUnit.InformationServiceimplTest.findclickbook" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e2c605e-41dd-48da-9445-2bff444d52a3" name="Default Changelist" comment="" />
+      <created>1545873479758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545873479758</updated>
+      <workItem from="1545873481178" duration="21099000" />
+      <workItem from="1545959746787" duration="1242000" />
+      <workItem from="1545961107583" duration="19899000" />
+      <workItem from="1546045326354" duration="14160000" />
+      <workItem from="1546390926816" duration="21112000" />
+      <workItem from="1546494535416" duration="762000" />
+      <workItem from="1546499888749" duration="2000" />
+      <workItem from="1546503414590" duration="19000" />
+      <workItem from="1546749265215" duration="2290000" />
+      <workItem from="1546756578150" duration="95000" />
+      <workItem from="1546824508209" duration="2426000" />
+      <workItem from="1546910369038" duration="17993000" />
+      <workItem from="1546938185864" duration="1791000" />
+      <workItem from="1546999952643" duration="1971000" />
+    </task>
+    <task id="LOCAL-00001" summary="图书修改删除">
+      <created>1545874057756</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545874057756</updated>
+    </task>
+    <task id="LOCAL-00002" summary="css、js样式">
+      <created>1545875286547</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545875286547</updated>
+    </task>
+    <task id="LOCAL-00003" summary="图标信息展示以及页面链接修改">
+      <created>1545894483526</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545894483526</updated>
+    </task>
+    <task id="LOCAL-00004" summary="发送邮件功能">
+      <created>1545961536384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1545961536384</updated>
+    </task>
+    <task id="LOCAL-00005" summary="查询图书功能连接">
+      <created>1545961907342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1545961907342</updated>
+    </task>
+    <task id="LOCAL-00006" summary="虚拟路径  以及前台页面链接修改">
+      <created>1545965051654</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1545965051654</updated>
+    </task>
+    <task id="LOCAL-00007" summary="图书标签的添加以及详情展示">
+      <created>1546417809976</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546417809976</updated>
+    </task>
+    <task id="LOCAL-00008" summary="对上次的提交的一点小修改">
+      <created>1546419270079</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1546419270079</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="InformationServiceimplTest_typetwolist - 2019.01.08 at 16h 52m 33s.xml">
+      <configuration name="InformationServiceimplTest.typetwolist" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformationServiceimplTest_findclickbook - 2019.01.08 at 16h 54m 01s.xml">
+      <configuration name="InformationServiceimplTest.findclickbook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformationServiceimplTest_findhostbook - 2019.01.08 at 16h 54m 43s.xml">
+      <configuration name="InformationServiceimplTest.findhostbook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformationServiceimplTest_findhostbook - 2019.01.08 at 16h 54m 58s.xml">
+      <configuration name="InformationServiceimplTest.findhostbook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformationServiceimplTest_findclickbook - 2019.01.08 at 16h 55m 09s.xml">
+      <configuration name="InformationServiceimplTest.findclickbook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformationServiceimplTest_findhostbook - 2019.01.08 at 16h 55m 27s.xml">
+      <configuration name="InformationServiceimplTest.findhostbook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformationServiceimplTest_findallbooktype - 2019.01.08 at 17h 15m 02s.xml">
+      <configuration name="InformationServiceimplTest.findallbooktype" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformationServiceimplTest_findallbooktype - 2019.01.08 at 17h 16m 11s.xml">
+      <configuration name="InformationServiceimplTest.findallbooktype" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformationServiceimplTest_findclickbook - 2019.01.08 at 17h 20m 09s.xml">
+      <configuration name="InformationServiceimplTest.findclickbook" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="InformationServiceimplTest_findallbooktype - 2019.01.08 at 17h 32m 47s.xml">
+      <configuration name="InformationServiceimplTest.findallbooktype" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="104861000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.25603217" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="0" sideWeight="0.49865952" weight="0.37588653" />
+      <window_info anchor="bottom" id="Application Servers" order="1" weight="0.32907802" />
+      <window_info anchor="bottom" id="Spring" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" weight="0.32907802" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5013405" side_tool="true" weight="0.37588653" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32907802" />
+      <window_info anchor="bottom" id="Java Enterprise" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49932975" weight="0.32907802" />
+      <window_info anchor="bottom" id="Message" order="9" />
+      <window_info anchor="bottom" id="Find" order="10" weight="0.32907802" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" weight="0.32907802" />
+      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.3297587" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="CDI" order="6" />
+      <window_info anchor="right" id="Palette" order="7" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="8" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="9" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="10" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="图书修改删除" />
+    <MESSAGE value="css、js样式" />
+    <MESSAGE value="图标信息展示以及页面链接修改" />
+    <MESSAGE value="发送邮件功能" />
+    <MESSAGE value="查询图书功能连接" />
+    <MESSAGE value="虚拟路径  以及前台页面链接修改" />
+    <MESSAGE value="图书标签的添加以及详情展示" />
+    <MESSAGE value="对上次的提交的一点小修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="对上次的提交的一点小修改" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties />
+        </breakpoint>
+        <breakpoint enabled="true" suspend="NONE" type="javascript-exception">
+          <properties />
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/management/updatebook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="152" column="19" lean-forward="true" selection-start-line="152" selection-start-column="19" selection-end-line="152" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/amazeui.datatables.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/amazeui.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/dataTables.responsive.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/theme.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/management/bookchart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="159" column="21" selection-start-line="159" selection-start-column="21" selection-end-line="159" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin_repay.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="149" column="28" selection-start-line="149" selection-start-column="28" selection-end-line="149" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="80" column="33" selection-start-line="80" selection-start-column="33" selection-end-line="80" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/management/addbooktype.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2623">
+          <caret line="154" column="21" selection-start-line="154" selection-start-column="21" selection-end-line="154" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/util/MassageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/util/MailUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1804">
+          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/management/bookinformation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="219" column="96" selection-start-line="219" selection-start-column="96" selection-end-line="219" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/management/booktypeinformation.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="236" column="52" lean-forward="true" selection-start-line="236" selection-start-column="52" selection-end-line="236" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/BookCommentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/massage/ReaderModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="16" column="7" lean-forward="true" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/massage/ReaderCondition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-704">
+          <caret line="14" column="7" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/massage/Massage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/IBookCommentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="40" column="3" lean-forward="true" selection-start-line="40" selection-start-column="3" selection-end-line="40" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1867">
+          <caret line="16" column="32" lean-forward="true" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-533" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wonders/libmgt/service/IInformationServiceTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/IInformationService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="14" column="33" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/development/jdk1.8.0_151/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2794">
+          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/service/impl/InformationServiceimpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="9" lean-forward="true" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/LibraryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/InformationDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/development/jdk1.8.0_151/src.zip!/java/net/URLClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/BookMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-748">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/BookMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="809">
+          <caret line="237" column="70" lean-forward="true" selection-start-line="237" selection-start-column="70" selection-end-line="237" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/BookCommentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2711" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/BookLabelMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-907" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/ReaderMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6034" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/BookTypeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-736" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/InforBookType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/pojo/TypeTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="53" column="41" lean-forward="true" selection-start-line="53" selection-start-column="41" selection-end-line="53" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="82" column="110" lean-forward="true" selection-start-line="82" selection-start-column="110" selection-end-line="82" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/wonders/libmgt/service/impl/InformationServiceimplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1810#1811#0" expanded="true" />
+            <element signature="e#1878#1879#0" expanded="true" />
+            <element signature="e#1923#1924#0" expanded="true" />
+            <element signature="e#1992#1993#0" expanded="true" />
+            <element signature="e#2095#2096#0" expanded="true" />
+            <element signature="e#2166#2167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/wonders/libmgt/mapper/InformationMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="80" column="19" selection-start-line="80" selection-start-column="19" selection-end-line="80" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/mapper/InformationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="27" column="38" selection-start-line="27" selection-start-column="38" selection-end-line="27" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wonders/libmgt/controller/InformationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>LibraryManagement:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>LibraryManagement</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33563218" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.1.9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.33563218" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

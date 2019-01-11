@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wonders.libmgt.mapper.InformationMapper">
+    <resultMap id="BaseResultMap" type="com.wonders.libmgt.pojo.Book">
+        <id column="book_id" jdbcType="INTEGER" property="bookId" />
+        <result column="book_name" jdbcType="VARCHAR" property="bookName" />
+        <result column="book_periodicals" jdbcType="VARCHAR" property="bookPeriodicals" />
+        <result column="book_callnum" jdbcType="VARCHAR" property="bookCallnum" />
+        <result column="book_writer" jdbcType="VARCHAR" property="bookWriter" />
+        <result column="book_press" jdbcType="VARCHAR" property="bookPress" />
+        <result column="book_cover" jdbcType="VARCHAR" property="bookCover" />
+        <result column="book_info" jdbcType="VARCHAR" property="bookInfo" />
+        <result column="book_time" jdbcType="TIMESTAMP" property="bookTime" />
+        <result column="book_updata" jdbcType="TIMESTAMP" property="bookUpdata" />
+        <result column="type_two_value" jdbcType="VARCHAR" property="typeTwoValue" />
+        <result column="book_state" jdbcType="VARCHAR" property="bookState" />
+        <result column="library_id" jdbcType="INTEGER" property="libraryId" />
+    </resultMap>
+    <resultMap id="typetwoResultMap" type="com.wonders.libmgt.pojo.TypeTwo">
+       <id property = "typeTwoId" column = "type_two_id" jdbcType="INTEGER"/>
+       <result property = "typeOneId" column = "type_one_id" jdbcType="INTEGER"/>
+       <result property = "typeTwoType" column = "type_two_type" jdbcType="VARCHAR"/>
+       <result property = "typeTwoValue" column = "type_two_value" />
+    </resultMap>
+    <resultMap id="InformationDemoResultMap" type="com.wonders.libmgt.pojo.InformationDemo">
+        <result property = "bookPeriodicals" column = "book_periodicals" jdbcType="INTEGER"/>
+        <result property = "bookNumber" column = "book_number" jdbcType="INTEGER"/>
+        <result property = "bookBorrow" column = "book_borrow" jdbcType="INTEGER"/>
+        <result property = "bookClick" column = "book_click" jdbcType="INTEGER"/>
+        <result property = "bookName" column = "book_name" jdbcType="VARCHAR"/>
+        <result property = "typeTwoValue" column = "type_two_value" jdbcType="VARCHAR"/>
+    </resultMap>
+    <resultMap id="InforBookTypeResultMap" type="com.wonders.libmgt.pojo.InforBookType">
+        <result property = "bookTypeId" column = "book_type_id"/>
+        <result property = "bookTypeName" column = "book_type_name"/>
+        <result property = "typeOneId" column = "type_one_id"/>
+        <result property = "typeOneValue" column = "type_one_value"/>
+        <result property = "typeOneType" column = "type_one_type"/>
+        <result property = "typeTwoId" column = "type_two_id"/>
+        <result property = "typeTwoValue" column = "type_two_value"/>
+        <result property = "typeTwoType" column = "type_two_type"/>
+    </resultMap>
+    <sql id="Base_Column_List">
+    book_id, book_name, book_periodicals, book_callnum, book_writer, book_press, book_cover,
+    book_info, book_time, book_updata, type_two_value, book_state, library_id
+    </sql>
+    <!-- 查询所有图书 -->
+    <select id="findAll" resultMap="BaseResultMap">
+        select <include refid="Base_Column_List"/> from book;
+    </select>
+
+    <!--根据id删除图书-->
+    <delete id="deletebook" parameterType="int" >
+        delete from book where book_id=#{bookId};
+    </delete>
+
+    <!--根据id修改图书信息-->
+    <update id="updatebook" parameterType="int">
+        update book set book_name=#{bookName},book_periodicals=#{bookPeriodicals}, book_callnum=#{bookCallnum},book_writer=#{bookWriter},
+        book_press=#{bookPress},book_cover=#{bookCover},book_info=#{bookInfo},book_updata=#{bookUpdata},library_id=#{libraryId}
+        where book_id=#{bookId}
+    </update>
+
+    <!--查找所有的二级图书分类-->
+    <select id="findbooktype" resultMap="typetwoResultMap">
+        select type_two_id,type_one_id,type_two_type,type_two_value from type_two
+    </select>
+
+    <!--查找热门图书-->
+    <select id="findhostbook" resultMap="InformationDemoResultMap">
+        SELECT b.book_name,p.book_borrow FROM book_periodicals p,book b where p.book_periodicals=b.book_periodicals ORDER BY book_borrow desc limit 5
+    </select>
+
+    <!--查找热门点击图书-->
+    <select id="findclickbook" resultMap="InformationDemoResultMap">
+        SELECT b.book_name,p.book_click FROM book_periodicals p,book b where p.book_periodicals=b.book_periodicals ORDER BY book_click desc limit 5
+    </select>
+
+    <!--添加二级图书分类-->
+    <insert id="insertbooktypetwo" useGeneratedKeys="true" keyProperty="typeTwoId" parameterType="com.wonders.libmgt.pojo.TypeTwo">
+        insert into type_two(type_one_id,type_two_type,type_two_value) values(#{typeOneId},#{typeTwoType},#{typeTwoValue})
+    </insert>
+
+    <!--查找图书分类的所有元素,三表级联-->
+    <select id="findallbooktype" resultMap="InforBookTypeResultMap">
+        select b.book_type_id,b.book_type_name,o.type_one_id,o.type_one_value,o.type_one_type,t.type_two_id,t.type_two_value,
+        t.type_two_type from book_type b,type_one o,type_two t where b.book_type_id=o.book_type_id and o.type_one_id=t.type_one_id
+    </select>
+</mapper>

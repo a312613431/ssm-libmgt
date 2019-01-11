@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wonders.libmgt.mapper.BookMapper">
+  <resultMap id="BaseResultMap" type="com.wonders.libmgt.pojo.Book">
+    <id column="book_id" jdbcType="INTEGER" property="bookId" />
+    <result column="book_name" jdbcType="VARCHAR" property="bookName" />
+    <result column="book_periodicals" jdbcType="VARCHAR" property="bookPeriodicals" />
+    <result column="book_callnum" jdbcType="VARCHAR" property="bookCallnum" />
+    <result column="book_writer" jdbcType="VARCHAR" property="bookWriter" />
+    <result column="book_press" jdbcType="VARCHAR" property="bookPress" />
+    <result column="book_cover" jdbcType="VARCHAR" property="bookCover" />
+    <result column="book_info" jdbcType="VARCHAR" property="bookInfo" />
+    <result column="book_time" jdbcType="TIMESTAMP" property="bookTime" />
+    <result column="book_updata" jdbcType="TIMESTAMP" property="bookUpdata" />
+    <result column="type_two_value" jdbcType="VARCHAR" property="typeTwoValue" />
+    <result column="book_state" jdbcType="VARCHAR" property="bookState" />
+    <result column="library_id" jdbcType="INTEGER" property="libraryId" />
+  </resultMap>
+  <resultMap id="BaseResultMap2" type="com.wonders.libmgt.pojo.BookRecordModel">
+    <id column="book_id" jdbcType="INTEGER" property="bookId" />
+    <result column="book_name" jdbcType="VARCHAR" property="bookName" />
+    <result column="book_periodicals" jdbcType="VARCHAR" property="bookPeriodicals" />
+    <result column="book_callnum" jdbcType="VARCHAR" property="bookCallnum" />
+    <result column="book_writer" jdbcType="VARCHAR" property="bookWriter" />
+    <result column="book_press" jdbcType="VARCHAR" property="bookPress" />
+    <result column="book_cover" jdbcType="VARCHAR" property="bookCover" />
+    <result column="book_info" jdbcType="VARCHAR" property="bookInfo" />
+    <result column="book_time" jdbcType="TIMESTAMP" property="bookTime" />
+    <result column="book_updata" jdbcType="TIMESTAMP" property="bookUpdata" />
+    <result column="type_two_value" jdbcType="VARCHAR" property="typeTwoValue" />
+    <result column="book_state" jdbcType="VARCHAR" property="bookState" />
+    <result column="library_id" jdbcType="INTEGER" property="libraryId" />
+    <result column="book_record_time" jdbcType="TIMESTAMP" property="bookRecordTime" />
+  </resultMap>
+  <resultMap id="BaseResultMap3" type="com.wonders.libmgt.pojo.BookBorrowModel">
+    <id column="book_id" jdbcType="INTEGER" property="bookId" />
+    <result column="book_name" jdbcType="VARCHAR" property="bookName" />
+    <result column="book_periodicals" jdbcType="VARCHAR" property="bookPeriodicals" />
+    <result column="book_callnum" jdbcType="VARCHAR" property="bookCallnum" />
+    <result column="book_writer" jdbcType="VARCHAR" property="bookWriter" />
+    <result column="book_press" jdbcType="VARCHAR" property="bookPress" />
+    <result column="book_cover" jdbcType="VARCHAR" property="bookCover" />
+    <result column="book_info" jdbcType="VARCHAR" property="bookInfo" />
+    <result column="book_time" jdbcType="TIMESTAMP" property="bookTime" />
+    <result column="book_updata" jdbcType="TIMESTAMP" property="bookUpdata" />
+    <result column="type_two_value" jdbcType="VARCHAR" property="typeTwoValue" />
+    <result column="book_state" jdbcType="VARCHAR" property="bookState" />
+    <result column="library_id" jdbcType="INTEGER" property="libraryId" />
+    <result column="book_record_time" jdbcType="TIMESTAMP" property="bookRecordTime" />
+    <result column="reader_name" jdbcType="VARCHAR" property="readerName" />
+    <result column="reader_phone" jdbcType="VARCHAR" property="readerPhone" />
+    <result column="reader_id" jdbcType="INTEGER" property="readerId" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    book_id, book_name, book_periodicals, book_callnum, book_writer, book_press, book_cover, 
+    book_info, book_time, book_updata, type_two_value, book_state, library_id
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from book
+    where book_id = #{bookId,jdbcType=INTEGER}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from book
+    where book_id = #{bookId,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.wonders.libmgt.pojo.Book">
+    insert into book (book_id, book_name, book_periodicals, 
+      book_callnum, book_writer, book_press, 
+      book_cover, book_info, book_time, 
+      book_updata, type_two_value, book_state, 
+      library_id)
+    values (#{bookId,jdbcType=INTEGER}, #{bookName,jdbcType=VARCHAR}, #{bookPeriodicals,jdbcType=VARCHAR}, 
+      #{bookCallnum,jdbcType=VARCHAR}, #{bookWriter,jdbcType=VARCHAR}, #{bookPress,jdbcType=VARCHAR}, 
+      #{bookCover,jdbcType=VARCHAR}, #{bookInfo,jdbcType=VARCHAR}, #{bookTime,jdbcType=TIMESTAMP}, 
+      #{bookUpdata,jdbcType=TIMESTAMP}, #{typeTwoValue,jdbcType=VARCHAR}, #{bookState,jdbcType=VARCHAR}, 
+      #{libraryId,jdbcType=INTEGER})
+      select @@IDENTITY as id
+  </insert>
+  <insert id="insertSelective" parameterType="com.wonders.libmgt.pojo.Book">
+    insert into book
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="bookId != null">
+        book_id,
+      </if>
+      <if test="bookName != null">
+        book_name,
+      </if>
+      <if test="bookPeriodicals != null">
+        book_periodicals,
+      </if>
+      <if test="bookCallnum != null">
+        book_callnum,
+      </if>
+      <if test="bookWriter != null">
+        book_writer,
+      </if>
+      <if test="bookPress != null">
+        book_press,
+      </if>
+      <if test="bookCover != null">
+        book_cover,
+      </if>
+      <if test="bookInfo != null">
+        book_info,
+      </if>
+      <if test="bookTime != null">
+        book_time,
+      </if>
+      <if test="bookUpdata != null">
+        book_updata,
+      </if>
+      <if test="typeTwoValue != null">
+        type_two_value,
+      </if>
+      <if test="bookState != null">
+        book_state,
+      </if>
+      <if test="libraryId != null">
+        library_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="bookId != null">
+        #{bookId,jdbcType=INTEGER},
+      </if>
+      <if test="bookName != null">
+        #{bookName,jdbcType=VARCHAR},
+      </if>
+      <if test="bookPeriodicals != null">
+        #{bookPeriodicals,jdbcType=VARCHAR},
+      </if>
+      <if test="bookCallnum != null">
+        #{bookCallnum,jdbcType=VARCHAR},
+      </if>
+      <if test="bookWriter != null">
+        #{bookWriter,jdbcType=VARCHAR},
+      </if>
+      <if test="bookPress != null">
+        #{bookPress,jdbcType=VARCHAR},
+      </if>
+      <if test="bookCover != null">
+        #{bookCover,jdbcType=VARCHAR},
+      </if>
+      <if test="bookInfo != null">
+        #{bookInfo,jdbcType=VARCHAR},
+      </if>
+      <if test="bookTime != null">
+        #{bookTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookUpdata != null">
+        #{bookUpdata,jdbcType=TIMESTAMP},
+      </if>
+      <if test="typeTwoValue != null">
+        #{typeTwoValue,jdbcType=VARCHAR},
+      </if>
+      <if test="bookState != null">
+        #{bookState,jdbcType=VARCHAR},
+      </if>
+      <if test="libraryId != null">
+        #{libraryId,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.wonders.libmgt.pojo.Book">
+    update book
+    <set>
+      <if test="bookName != null">
+        book_name = #{bookName,jdbcType=VARCHAR},
+      </if>
+      <if test="bookPeriodicals != null">
+        book_periodicals = #{bookPeriodicals,jdbcType=VARCHAR},
+      </if>
+      <if test="bookCallnum != null">
+        book_callnum = #{bookCallnum,jdbcType=VARCHAR},
+      </if>
+      <if test="bookWriter != null">
+        book_writer = #{bookWriter,jdbcType=VARCHAR},
+      </if>
+      <if test="bookPress != null">
+        book_press = #{bookPress,jdbcType=VARCHAR},
+      </if>
+      <if test="bookCover != null">
+        book_cover = #{bookCover,jdbcType=VARCHAR},
+      </if>
+      <if test="bookInfo != null">
+        book_info = #{bookInfo,jdbcType=VARCHAR},
+      </if>
+      <if test="bookTime != null">
+        book_time = #{bookTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="bookUpdata != null">
+        book_updata = #{bookUpdata,jdbcType=TIMESTAMP},
+      </if>
+      <if test="typeTwoValue != null">
+        type_two_value = #{typeTwoValue,jdbcType=VARCHAR},
+      </if>
+      <if test="bookState != null">
+        book_state = #{bookState,jdbcType=VARCHAR},
+      </if>
+      <if test="libraryId != null">
+        library_id = #{libraryId,jdbcType=INTEGER},
+      </if>
+    </set>
+    where book_id = #{bookId,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.wonders.libmgt.pojo.Book">
+    update book
+    set book_name = #{bookName,jdbcType=VARCHAR},
+      book_periodicals = #{bookPeriodicals,jdbcType=VARCHAR},
+      book_callnum = #{bookCallnum,jdbcType=VARCHAR},
+      book_writer = #{bookWriter,jdbcType=VARCHAR},
+      book_press = #{bookPress,jdbcType=VARCHAR},
+      book_cover = #{bookCover,jdbcType=VARCHAR},
+      book_info = #{bookInfo,jdbcType=VARCHAR},
+      book_time = #{bookTime,jdbcType=TIMESTAMP},
+      book_updata = #{bookUpdata,jdbcType=TIMESTAMP},
+      type_two_value = #{typeTwoValue,jdbcType=VARCHAR},
+      book_state = #{bookState,jdbcType=VARCHAR},
+      library_id = #{libraryId,jdbcType=INTEGER}
+    where book_id = #{bookId,jdbcType=INTEGER}
+  </update>
+
+  <!--根据书名模糊查询-->
+  <select id="selectDimBook" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from book
+    <where>
+      <if test="bookName != null">
+        book_name like '%${bookName}%'
+      </if>
+    </where>
+  </select>
+
+  <!--标签查询-->
+  <select id="selectLabelBook" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select DISTINCT
+    b.<include refid="Base_Column_List" />
+    from book b,book_label_relation blr
+    where b.book_id=blr.book_id and blr.book_label_id in
+    <foreach collection="array" item="label" index="index"
+             open="(" close=")" separator=",">
+      '${label}'
+    </foreach>
+  </select>
+
+  <!--分类查询-->
+  <select id="selectType" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from book
+    <where>
+      <if test="value != null">
+        type_two_value like '${value}'
+      </if>
+    </where>
+  </select>
+
+
+<select id="selectStateById" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+select book_state
+from book
+where book_id = #{bookId,jdbcType=INTEGER}
+</select>
+
+  <!--查询图书数量-->
+  <select id="selectNum" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+    select bp.book_number from book_periodicals bp where bp.book_periodicals in (
+      select b.book_periodicals from book b where b.book_id = #{bookId}
+    )
+  </select>
+  <!--借阅一个图书数量减1-->
+  <update id="updateByNumber" parameterType="java.lang.Integer">
+    update book_periodicals set book_number = book_number-1 where book_periodicals in (
+      select book_periodicals from book where book_id = #{bookId}
+      )
+  </update>
+  <!--添加借阅记录-->
+  <insert id="addBookRecord" parameterType="java.lang.Integer">
+    insert into book_reader_record(book_id,reader_id) values (#{bookId},#{readerId})
+  </insert>
+
+  <!--归还一个图书数量加1-->
+  <update id="updateByAddNumber" parameterType="java.lang.Integer">
+    update
+      book_periodicals
+      set book_number = book_number+1
+      where book_periodicals in (
+      select book_periodicals from book where book_id = #{bookId}
+    )
+  </update>
+
+  <!--归还后借阅状态为1-->
+  <update id="updateByState" parameterType="java.lang.Integer">
+    UPDATE book_reader_record
+    set book_reader_record_state = 1
+    where book_id = #{bookId} and reader_id = #{readerId}
+  </update>
+
+  <!--未还图书(以借阅)-->
+  <select id="selectByBorrow" parameterType="java.lang.Integer" resultMap="BaseResultMap2">
+    select b.<include refid="Base_Column_List" />,brr.book_record_time
+    from book b,book_reader_record brr
+    where
+      b.book_id = brr.book_id
+      and brr.reader_id = #{readerId}
+      and brr.book_reader_record_state=0
+  </select>
+  <!--以还图书-->
+  <select id="selectByRepay" parameterType="java.lang.Integer" resultMap="BaseResultMap2">
+    select b.<include refid="Base_Column_List" />,brr.book_record_time
+    from book b,book_reader_record brr
+    where
+    b.book_id = brr.book_id
+    and brr.reader_id =  #{readerId}
+    and brr.book_reader_record_state=1
+  </select>
+
+  <!--所有待还图书（管理员）-->
+  <select id="selectByBorrowAll" resultMap="BaseResultMap3">
+    select b.<include refid="Base_Column_List" />,brr.book_record_time,r.reader_name,r.reader_id,r.reader_phone
+      from book b,book_reader_record brr,reader r
+      where
+      b.book_id = brr.book_id
+      and brr.reader_id = r.reader_id
+      and brr.book_reader_record_state=0
+  </select>
+</mapper>
